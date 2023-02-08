@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "$(ls -lh)"
+cd ~
+echo "$(ls -lh)"
