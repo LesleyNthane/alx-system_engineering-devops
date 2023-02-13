@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | awk '{if(NR>1&&NR<=11) print $NF}'
+ls -lt | head -n 11 | tail -n 10
